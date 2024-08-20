@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Maru Dryfruits</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="agreementModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <form method="post" class="modal-content">
+                <div class="modal-header text-center p-4 text-dark">
+                    <div class="text-center col-12 p-0">
+                        <h3 class="text-left mb-0"
+                            style="color: saddlebrown;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ">
+                            Maru DryFruits
+                            <button type="button" class="btn text-secondary btn-light" data-dismiss="modal"
+                                aria-label="Close" style="float: right;">
+                                ✕
+                            </button>
+                        </h3>
+                    </div>
+
+
+                </div>
+                <div class="modal-body text-justify py-4 text-dark">
+                    <img src="Thankyou.jpg" style="width: 600px; height: 500px; margin-left: 11%;">
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid col-lg-12 col-md-12 col-sm-12"> -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html"
+            style=" font-family: cursive; font-size: 35px; color: saddlebrown;"><b>Maru DryFruits</b> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Nuts.html" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Nuts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="Nuts/almond.html">Almonds</a>
+                        <a class="dropdown-item" href="Nuts/Pista.html">Pistachios</a>
+                        <a class="dropdown-item" href="Nuts/kaaju.html">Cashews</a>
+                        <a class="dropdown-item" href="Nuts/walnuts.html">Walnuts</a>
+                        <a class="dropdown-item" href="Nuts/Pinenuts.html">Pine nuts</a>
+                        <a class="dropdown-item" href="Nuts/Peanuts.html">Peanuts</a>
+                        <a class="dropdown-item" href="Nuts/hazelnuts.html">Hazelnuts</a>
+                        <a class="dropdown-item" href="Nuts/Brazilnuts.html">Brazil Nuts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Dryfruits.html" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dry Fruits</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="DryFruits/apricot.html">Apricot</a>
+                        <a class="dropdown-item" href="DryFruits/rasins.html">Raisins</a>
+                        <a class="dropdown-item" href="DryFruits/fig.html">Fig</a>
+                        <a class="dropdown-item" href="DryFruits/rewrii.html">Rewri</a>
+                        <a class="dropdown-item" href="DryFruits/prunes1.html">Prunes</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dates</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="Dates/drydates.html">Dry Dates</a>
+                        <a class="dropdown-item" href="Dates/ajwa.html">Ajwa Dates</a>
+                        <a class="dropdown-item" href="Dates/mabroomdates.html">Mabroom Dates</a>
+                        <a class="dropdown-item" href="Dates/surkkaridates.html">Sukkari Dates</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="Gifts/gifts.html" class="nav-link dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Gifts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="Gifts/gift1.html">Small Gift Basket</a>
+                        <a class="dropdown-item" href="Gifts/gift2.html">Silver Gift Basket</a>
+                        <a class="dropdown-item" href="Gifts/gift3.html">Gold Gift Basket</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about us/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus/contactus.html">Contact Us</a>
+                </li>
+                <div class="icons mt-2">
+                    <button class="btn01" onclick="addtocart()" style="outline: none;"><i
+                            class="fas fa-cart-plus"></i></button>&nbsp;&nbsp;
+                    <a href="loginform/loginform.html"><i class="fas fa-user"></i></a>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- </div> -->
+    <!-- SLIDER START -->
+    <div id="carouselId" class="carousel slide mt-3 col-lg-12 col-md-12 col-sm-12" style="margin: 0px; padding: 0px;"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" style="border-radius: 50%; height: 15px; width: 15px;"></li>
+            <li data-target="#carouselId" data-slide-to="1" style="border-radius: 50%; height: 15px; width: 15px;"></li>
+            <li data-target="#carouselId" data-slide-to="2" style="border-radius: 50%; height: 15px; width: 15px;"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="images/wallpaper7.jpg" alt="First slide" class="img1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/bgcover8.jpg" alt="Second slide" class="img1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/wallpaper6.png" alt="Third slide" class="img1">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="fa fa-arrow-circle-left" style="font-size: 40px;;"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fa fa-arrow-circle-right" style="font-size: 40px;;"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- SLIDER END -->
+
+    <div class="container mt-3 div6 col-lg-12 col-md-12 col-sm-12">
+
+        <!-- nuts -->
+        <div>
+            <h1 class="head1">--- <span class="span8"><b>NUTS</b></span> ---</h1>
+        </div>
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 0px 10px;" id="Almonds">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/badaam.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title"><span class="head5">Almonds</span><span class="span1">بادام</span></h5>
+                        <hr style="margin-top:30px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 500</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 10px 0px;" id="pista">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/pista.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title"><span class="head5">Pistachios</span><span class="span1">پستہ</span></h5>
+                        <hr style="margin-top:30px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 600</b> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 0px 0px;" id="walnut">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/walnuts_0.jpg" class="img-fluid" style="height: 167px; width: 100%">
+                        <h5 class="card-title"><span class="head5">Walnuts</span><span class="span1">اخروٹ</span></h5>
+                        <hr style="margin-top:30px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 220</b> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 0px 0px;" id="kaaju">
+                <div class="card a1 ">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/kaaju1.jpg" class="img-fluid" style="height: 167px; width: 100%">
+                        <h5 class="card-title"><span class="head5">Cashews</span><span class="span1">کاجو</span></h5>
+                        <hr style="margin-top:30px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 600</b> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div9 mt-2 " style=" width: 100%; height: 80px; padding-top: 15px;"><a href="Nuts.html"
+                    style="margin-left: 46%; color: white; height: 45px;padding: 5px; border-radius: 5px; text-align: center; font-size: x-large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color:rgb(92, 63, 28);padding-left: 10px;padding-right: 10px; ">View
+                    All</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- benefits of nuts -->
+    <div class="container div4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h1 class="head2" style="text-shadow: 2px 2px 2px navajowhite;">Benefits of Nuts</h1>
+                <br>
+                <p class="p2">"Nuts are widely touted for their great taste and convenience, but their taste isn’t the
+                    only thing that makes them popular.
+                    There are many varieties of nuts.Nuts are a nutritionally rich food, containing most of the vitamins
+                    and minerals the body needs.
+                    Nuts are largely composed of fats, which might seem counterintuitive for weight loss. However, the
+                    fats in nuts are almost entirely unsaturated,
+                    which means they leave you feeling more satisfied after eating, helping you eat less over time."
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 image">
+                <div class="card">
+                    <div class="card-body2" style="height: 360px; border: 1px solid rgb(116, 94, 68); padding: 15px;">
+                        <img class="image1" src="images/bgcover9.png" style="width: 100%; height: 330px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  benefits end -->
+
+    <div class="container mt-3 div6 col-lg-12 col-md-12 col-sm-12">
+        <div>
+            <h1 class="head1">--- <span class="span8"><b>DRY FRUITS</b></span> ---</h1>
+        </div>
+        <!-- row 1 -->
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 0px 10px;" id="apricot">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/apricot.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Apricots<span class="span1">خوبانی</span></h5>
+                        <hr style="margin-top: 34px;margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 250&nbsp;&nbsp;</b><span class="span2">300</span> </p>
+                    </div>
+                    <div class="sale1">Save <br><b>17%</b></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 10px 0px;" id="kishmish">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/raisins.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Raisins<span class="span1">کشمش</span></h5>
+                        <hr style="margin-top: 34px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 270&nbsp;&nbsp;</b><span class="span2">300</span> </p>
+                    </div>
+                    <div class="sale">Save <br><b>17%</b></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 12px 10px 10px 0px;" id="cranberries">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/cranberries1.jpg" class="img-fluid" style="height: 170px; width: 100%;">
+                        <h5 class="card-title">Cranberries<span class="span1">سرخ گوندنی</span></h5>
+                        <hr style="margin-top: 32px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 700&nbsp;&nbsp;</b><span class="span2">750</span> </p>
+                    </div>
+                    <div class="sale">Save <br><b>17%</b></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 15px 10px 10px 0px;" id="fig">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/fig.jpg" class="img-fluid" style="height: 170px; width: 100%;">
+                        <h5 class="card-title">Figs<span class="span1">انجیر</span></h5>
+                        <hr style="margin-top: 29px; ;margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 700&nbsp;&nbsp;</b><span class="span2">750</span> </p>
+                    </div>
+                    <div class="sale">Save <br><b>17%</b></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="div9 mt-2" style=" width: 100%; height: 80px; padding-top: 15px;"><a href="Dryfruits.html"
+                style="color: white; height: 50px; padding: 5px; border-radius: 5px; text-align: center; font-size: x-large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; margin-left: 46%; background-color:rgb(92, 63, 28);padding-left: 10px;padding-right: 10px; ">View
+                All</a>
+        </div>
+
+    </div>
+
+    <!-- 2nd row -->
+    <!-- benefits of dry fruits -->
+    <div class="container div4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 image2">
+                <div class="card">
+                    <div class="card-body2" style="height: 330px; border: 1px solid rgb(116, 94, 68); padding: 15px;">
+                        <img class="image1" src="images/cover1.jpg" style="width: 100%; height: 300px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h1 class="head2" style="text-shadow: 2px 2px 2px darkgoldenrod;">Benefits of Dry Fruits</h1>
+                <br>
+                <p class="p2">These dry fruits are rich in vitamins and proteins; they also boost immunity and prevent
+                    lifestyle diseases such as cholesterol and diabetes. Most dry fruits are rich in minerals, proteins,
+                    fibre and vitamins add to that they are tasty and delicious too.
+                    Dry fruits are excellent and healthy substitute for daily snacks.
+                    Consumption of dry fruits enhances energy and stamina; also as they are rich in fibre which means
+                    better digestion and overall health.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- benefits end -->
+
+    <!-- dates            -->
+
+    <div class="container-fluid mt-3" style="background-color: rgb(233, 221, 206);">
+        <div>
+            <h1 class="head1">--- <span class="span8"><b>DATES</b></span> ---</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-12" id="drydate">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/drydates.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Dry Dates<span class="span1">چھوہارا</span></h5>
+                        <hr style="margin-top:32px;margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 90</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-12" id="ajwa">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/ajwa.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Ajwa Dates<span class="span1">اجوا</span></h5>
+                        <hr style="margin-top:32px;margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 450</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-12" id="mabroom">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/mabroom.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Mabroom Dates<span class="span1">مبروم</span></h5>
+                        <hr style="margin-top:32px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 650</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-12" id="sukkari">
+                <div class="card a1">
+                    <div class="card-body" style="padding: 10px 10px 0px 10px;">
+                        <img src="images/sukkari.jpg" class="img-fluid" style="height: 167px; width: 100%;">
+                        <h5 class="card-title">Sukkari Dates<span class="span1">سکری</span></h5>
+                        <hr style="margin-top:32px; margin-bottom: 10px;">
+                        <p class="card-text p1"><b>Rs. 400</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+    </div>
+
+    <!-- card start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <div class="div11">
+                    <br>
+                    <br>
+                    <h2><b>Don’t Miss a Sale</b></h2>
+                    <p class="lead ml-5"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sign up for our
+                        Newsletter </p>
+                    <p style="text-align: center; font-size: 20px; margin-top: -3%; margin-left: 8%;"> to get exclusive
+                        <b>discount coupons</b> and <b>new &nbsp; &nbsp; &nbsp; &nbsp; promotions &amp; deals</b> in
+                        your inbox. &nbsp; &nbsp; &nbsp; &nbsp;'
+                    </p>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <div> <button class="bon" type="button"> SIGN UP</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="div11">
+                    <br>
+                    <br>
+                    <h2><b>Don’t Miss a Sale</b></h2>
+                    <p class="lead ml-5"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sign up for our
+                        Newsletter </p>
+                    <p style="text-align: center; font-size: 20px; margin-top: -3%; margin-left: 8%;"> to get exclusive
+                        <b>discount coupons</b> and <b>new &nbsp; &nbsp; &nbsp; &nbsp; promotions &amp; deals</b> in
+                        your inbox. &nbsp; &nbsp; &nbsp; &nbsp;'
+                    </p>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <div> <button class="bon" type="button"> SIGN UP</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Footer start -->
+
+    <footer class="footer-section" style="margin-top: 5%; width:100%;">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta head4">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Aptech garden center , makki masjid </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>92765432100</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <h1>MARU DRYFRUITS</h1>
+                                </a>
+                            </div>
+                            <div class="footer-text">
+                                <p>The Story of <b>MARUDRYFRUITS </b> is the story of Love, Passion and Care.
+                                    Love for Food and passion for serving our customers with Care.Being a Crazy Foodie
+                                    and a perfectionist, we the co-founders have always been searching for the best Food
+                                    ingredients
+                                    from across various regions. Our search for best quality helped us to explore the
+                                    sources,
+                                    HEALTHY, PURE & NATURAL food. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about us/about.html">About Us</a></li>
+                                <li><a href="contactus/contactus.html">Contact us</a></li>
+                                <li><a href="privacy/policy.html">Privacy Policy</a></li>
+                                <li><a href="desclaimer/desclaimer.html">Declaimer</a></li>
+                                <li><a href="Dryfruits.html">Sale</a></li>
+                                <li><a href="Doc2.docx">Site Map</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button id="email1" onclick="email()" style="outline: none;"><i
+                                            class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                            <br>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://twitter.com/login?lang=en"><i
+                                        class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube youtube-bg"></i></i></a>
+                                <a
+                                    href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i
+                                        class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footr end  -->
+
+
+
+
+    <script>
+
+        function addtocart() {
+            $('#thankyouModal').modal('show');
+        };
+        //Almond Page
+        $(document).ready(function () {
+            $("#Almonds").click(function () {
+                window.location.href = "Nuts/almond.html"
+            })
+        });
+        //Pista Page
+        $(document).ready(function () {
+            $("#pista").click(function () {
+                window.location.href = "Nuts/Pista.html"
+            })
+        });
+        //walnut
+        $(document).ready(function () {
+            $("#walnut").click(function () {
+                window.location.href = "Nuts/walnuts.html"
+            })
+        });
+        //Cashews
+        $(document).ready(function () {
+            $("#kaaju").click(function () {
+                window.location.href = "Nuts/kaaju.html"
+            })
+        });
+        //apricot
+        $(document).ready(function () {
+            $("#apricot").click(function () {
+                window.location.href = "DryFruits/apricot.html"
+            })
+        });
+        //kishmish
+        $(document).ready(function () {
+            $("#kishmish").click(function () {
+                window.location.href = "DryFruits/rasins.html"
+            })
+        });
+        //Cranberries
+        $(document).ready(function () {
+            $("#cranberries").click(function () {
+                window.location.href = "DryFruits/cranberries1.html"
+            })
+        });
+        //fig
+        $(document).ready(function () {
+            $("#fig").click(function () {
+                window.location.href = "DryFruits/fig.html"
+            })
+        });
+        //drydate
+        $(document).ready(function () {
+            $("#drydate").click(function () {
+                window.location.href = "Dates/drydates.html"
+            })
+        });
+        //mabroom
+        $(document).ready(function () {
+            $("#mabroom").click(function () {
+                window.location.href = "Dates/mabroomdates.html"
+            })
+        });
+        //ajwa
+        $(document).ready(function () {
+            $("#ajwa").click(function () {
+                window.location.href = "Dates/ajwa.html"
+            })
+        });
+        //sukkari
+        $(document).ready(function () {
+            $("#sukkari").click(function () {
+                window.location.href = "Dates/surkkaridates.html"
+            })
+        });
+
+        function email() {
+            alert('welcome');
+        }
+    </script>
+</body>
+
+</html>
